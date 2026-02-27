@@ -31,6 +31,10 @@ yarn-error.log
 
 # Miscellaneous
 /.angular/cache
+.angular/
+.angular-cli.json
+/.ng/
+.angular/
 .sass-cache/
 /connect.lock
 /coverage
@@ -38,6 +42,13 @@ yarn-error.log
 testem.log
 /typings
 __screenshots__/
+/e2e/test-output/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment files
+/.env
 
 # System files
 .DS_Store
